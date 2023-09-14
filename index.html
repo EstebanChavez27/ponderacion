@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Ponderación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <img src="https://www.edesur.com.ar/wordpress/wp-content/uploads/2021/12/logo-color-01-grande.png" alt="logo edesur" />
+  <h1>Calculadora Ponderación</h1>
+  <div class="wrapper">
+    <div class="calculator">
+        <h3>Consumo bimestral:</h3>
+        <input type="number" id="inputNumber1" placeholder="Ingrese consumo bimestral">
+        <h3>Cantidad de días:</h3>
+        <input type="number" id="inputNumber2" placeholder="Ingrese cantidad de días leídos">
+        <br>
+        <button onclick="calculate()">Calcular</button>
+        <p id="result"></p>
+        <button onclick="resetCalculator()">Reiniciar</button>
+    </div>
+    <footer>
+        <p class="text-footer">&copy; Site by <a href="https://estebanchavez27.github.io/MiPortafolio/" target="_blank" >Esteban Chávez</a> - 2023</p>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
